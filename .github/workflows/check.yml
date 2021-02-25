@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: check
-      run: curl https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers | jq '.providerList[] | select(.providerName | startswith("{$env.PROVIDER_NAME}}"))'
+      run: curl https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers | jq '.providerList[] | select(.providerName | startswith("{$env.PROVIDER_NAME}"))'
     - name: notify
       run: curl 'https://api.twilio.com/2010-04-01/Accounts/${secrets.TWILIO_ACCOUNTID}/Messages.json' -X POST --data-urlencode 'To=whatsapp:${secrets.PHONE_NUMBER}' --data-urlencode 'From=whatsapp:${secrets.TWILIO_PHONE_NUMBER}' --data-urlencode 'Body=Appointments available in ${env.PROVIDER_NAME}' -u ${secrets.TWILIO_TOKEN}
 
