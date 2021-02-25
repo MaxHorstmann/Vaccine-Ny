@@ -1,0 +1,13 @@
+name: check
+on: 
+  workflow_dispatch:
+  # https://crontab.guru/every-5-minutes
+  schedule:
+  - cron:  '*/5 * * * *'
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: check
+      run: curl https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers | jq '.providerList[] | select(.providerName | startswith("Westchester"))'
+
