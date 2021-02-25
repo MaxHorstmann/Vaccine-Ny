@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   # https://crontab.guru/every-5-minutes
   schedule:
-  - cron:  '*/5 * * * *'
+  - cron:  '* * * * *'
 env:
   PROVIDER_NAME: Westchester
 jobs:
