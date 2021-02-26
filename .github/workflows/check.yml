@@ -1,7 +1,6 @@
 name: check
 on: 
-  schedule:
-  - cron:  '* * * * *'
+  workflow_dispatch:
 env:
   PROVIDER_NAME: Westchester
 jobs:
