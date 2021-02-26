@@ -2,7 +2,7 @@ name: check
 on: 
   workflow_dispatch:
 env:
-  PROVIDER_NAME: "**New York National Guard Armory"
+  PROVIDER_NAME: Westchester
 jobs:
   check:
     runs-on: ubuntu-latest
