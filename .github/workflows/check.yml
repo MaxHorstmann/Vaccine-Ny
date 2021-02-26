@@ -12,7 +12,7 @@ jobs:
     - name: debug
       run: echo $aa
     - name: notify
-      if: env.aa == '"NAC"'
-      run: curl 'https://api.twilio.com/2010-04-01/Accounts/${{secrets.TWILIO_ACCOUNTID}}/Messages.json' -X POST --data-urlencode 'To=whatsapp:${{secrets.PHONE_NUMBER}}' --data-urlencode 'From=whatsapp:${{secrets.TWILIO_PHONE_NUMBER}}' --data-urlencode 'Body=No appointments available in ${{env.PROVIDER_NAME}}' -u ${{secrets.TWILIO_TOKEN}}
+      if: env.aa == '"AA"'
+      run: curl 'https://api.twilio.com/2010-04-01/Accounts/${{secrets.TWILIO_ACCOUNTID}}/Messages.json' -X POST --data-urlencode 'To=whatsapp:${{secrets.PHONE_NUMBER}}' --data-urlencode 'From=whatsapp:${{secrets.TWILIO_PHONE_NUMBER}}' --data-urlencode 'Body=Appointments available in ${{env.PROVIDER_NAME}}' -u ${{secrets.TWILIO_TOKEN}}
 
 
