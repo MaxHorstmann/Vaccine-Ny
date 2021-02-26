@@ -1,7 +1,5 @@
 name: check
 on: 
-  workflow_dispatch:
-  # https://crontab.guru/every-5-minutes
   schedule:
   - cron:  '* * * * *'
 env:
