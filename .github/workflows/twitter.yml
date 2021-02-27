@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: install twurl
-      run: gem install twurl
+      run: gem install --user-install twurl
     - name: authorize
       run: twurl authorize --consumer-key TODO --consumer-secret TODO
 
