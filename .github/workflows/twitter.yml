@@ -5,9 +5,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-    - name: install twurl
-      run: gem install --local twurl
     - name: authorize
-      run: twurl authorize --consumer-key TODO --consumer-secret TODO
-
-
+      run: docker run maxhorstmann/twurl authorize --consumer-key key --consumer-secret secret
+    - name: tweet
+      run: docker run maxhorstmann/twurl -d 'status=Hello world!' /1.1/statuses/update.json
