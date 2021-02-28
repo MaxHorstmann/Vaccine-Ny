@@ -8,11 +8,11 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v2
     - name: Fetch availabilities
-      run: curl -s https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers | jq '.providerList[] | select(.availableAppointments =="AA") | select(.providerName | startswith("**")) | .address' > availabilities.txt
+      run: curl -s https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers | jq '.providerList[] | select(.availableAppointments =="AA") | select(.providerName | .address' > availabilities.txt
     - name: Config name
       run: git config user.name "Vaccine Bot"
     - name: Config email
-      run: git config user.email "max.horstmann+vaccinebot@gmail.com"
+      run: git config user.email "${{ secrets.EMAIL }}"
     - name: Add to repo
       run: git add availabilities.txt
     - name: Check if availabilities have changed
