@@ -5,7 +5,12 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-    - name: authorize
-      run: docker run maxhorstmann/twurl authorize --consumer-key key --consumer-secret secret
     - name: tweet
-      run: docker run maxhorstmann/twurl -d 'status=Hello world!' /1.1/statuses/update.json
+      run: |
+        docker run maxhorstmann/twurl \
+        -c ${{ secrets.TWITTER_CONSUMER_API_KEY }} \
+        -s ${{ secrets.TWITTER_CONSUMER_API_SECRET }} \
+        -a ${{ secrets.TWITTER_ACCESS_TOKEN }} \
+        -S ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
+        -d 'status=Hello from GitHub Actions!' \
+        /1.1/statuses/update.json
