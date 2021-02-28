@@ -9,6 +9,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch availabilities
       run: curl -s https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers | jq '.providerList[] | select(.availableAppointments =="AA") | .address' > availabilities.txt
+    - name: sort
+      run: sort -o availabilities.txt availabilities.txt
     - name: Config name
       run: git config user.name "Vaccine Bot"
     - name: Config email
