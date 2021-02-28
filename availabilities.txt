@@ -2,7 +2,6 @@ Albany
 Brooklyn
 Buffalo
 Jamaica
-New York
 Plattsburgh
 Potsdam
 Rochester
