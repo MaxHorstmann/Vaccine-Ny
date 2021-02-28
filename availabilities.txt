@@ -1,0 +1,6 @@
+"Potsdam, NY"
+"Brooklyn, NY"
+"Yonkers, NY"
+"Albany, NY"
+"Rochester, NY"
+"Buffalo, NY"
