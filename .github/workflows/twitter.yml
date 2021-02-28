@@ -40,7 +40,7 @@ jobs:
         echo $TWEET
         echo "TWEET=$TWEET" >> $GITHUB_ENV
 
-    - name: Tweet if avaiabilities changed
+    - name: Tweet if availabilities changed
       if: steps.check.outputs.changes    
       run: |
         docker run maxhorstmann/twurl \
