@@ -24,7 +24,23 @@ jobs:
         else
           echo "Availabilities haven't changed."
         fi 
-    - name: tweet if avaiabilities changed
+    - name: Compose Tweet
+      run: |
+        TWEET="Appointments are now available in "
+        FIRST=true
+        while read p; do
+          if [ "$FIRST" = true ] ; then
+            FIRST=false
+          else
+            TWEET="${TWEET}, "
+          fi
+          TWEET="${TWEET}$p"
+        done < availabilities.txt
+        TWEET="${TWEET}: https://am-i-eligible.covid19vaccine.health.ny.gov"
+        echo $TWEET
+        echo "TWEET=$TWEET" >> $GITHUB_ENV
+
+    - name: Tweet if avaiabilities changed
       if: steps.check.outputs.changes    
       run: |
         docker run maxhorstmann/twurl \
@@ -32,7 +48,7 @@ jobs:
         -s ${{ secrets.TWITTER_CONSUMER_API_SECRET }} \
         -a ${{ secrets.TWITTER_ACCESS_TOKEN }} \
         -S ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
-        -d 'status=New appointments are available on https://am-i-eligible.covid19vaccine.health.ny.gov.' \
+        -d 'status=${{ env.TWEET }' \
         /1.1/statuses/update.json
     - name: Commit changes
       if: steps.check.outputs.changes
