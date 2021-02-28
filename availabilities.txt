@@ -1,6 +1,6 @@
-"Albany, NY"
-"Brooklyn, NY"
-"Buffalo, NY"
-"Potsdam, NY"
-"Rochester, NY"
-"Yonkers, NY"
+Albany
+Brooklyn
+Buffalo
+Potsdam
+Rochester
+Yonkers
