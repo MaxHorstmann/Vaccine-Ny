@@ -5,7 +5,23 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-    - name: tweet
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Fetch availabilities
+      run: curl -s https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers | jq '.providerList[] | select(.availableAppointments =="AA") | select(.providerName | startswith("**")) | .address' > availabilities.txt
+    - name: Add to repo
+      run: git add availabilities.txt
+    - name: Check if availabilities have changed
+      id: check
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "Availabilities have changed!"
+          echo "::set-output name=changes::1"
+        else
+          echo "Availabilities haven't changed."
+        fi 
+    - name: tweet if avaiabilities changed
+      if: steps.check.outputs.changes    
       run: |
         docker run maxhorstmann/twurl \
         -c ${{ secrets.TWITTER_CONSUMER_API_KEY }} \
@@ -14,3 +30,9 @@ jobs:
         -S ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
         -d 'status=Hello from GitHub Actions!' \
         /1.1/statuses/update.json
+    - name: Commit changes
+      if: steps.check.outputs.changes
+      run: git commit -m "New availabilities"
+    - name: Push changes
+      if: steps.check.outputs.changes
+      run: git push
