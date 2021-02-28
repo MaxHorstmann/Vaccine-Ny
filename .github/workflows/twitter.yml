@@ -48,7 +48,7 @@ jobs:
         -s ${{ secrets.TWITTER_CONSUMER_API_SECRET }} \
         -a ${{ secrets.TWITTER_ACCESS_TOKEN }} \
         -S ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} \
-        -d 'status=${{ env.TWEET }' \
+        -d 'status=${{ env.TWEET }}' \
         /1.1/statuses/update.json
     - name: Commit changes
       if: steps.check.outputs.changes
