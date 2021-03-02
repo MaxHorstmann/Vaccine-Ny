@@ -6,4 +6,5 @@ Johnson City
 Plattsburgh
 Potsdam
 Rochester
+Syracuse
 Yonkers
