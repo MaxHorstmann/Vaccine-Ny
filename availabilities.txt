@@ -3,5 +3,3 @@ Brooklyn
 Plattsburgh
 Potsdam
 Rochester
-Syracuse
-Utica
