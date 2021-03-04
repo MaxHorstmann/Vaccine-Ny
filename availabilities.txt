@@ -1,5 +1,10 @@
 Albany
 Batavia
+Brooklyn
+Buffalo
+Jamaica
+Johnson City
+New York
 New York
 Olean
 Plattsburgh
@@ -7,3 +12,5 @@ Potsdam
 Poughkeepsie
 Rochester
 Syracuse
+Utica
+Yonkers
