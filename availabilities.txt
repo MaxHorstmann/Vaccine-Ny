@@ -1,7 +1,6 @@
 Albany
 Batavia
 Brooklyn
-Jamaica
 Johnson City
 New York
 New York
@@ -10,6 +9,7 @@ Plattsburgh
 Potsdam
 Poughkeepsie
 Rochester
+Syracuse
 Syracuse
 Utica
 Yonkers
