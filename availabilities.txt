@@ -3,5 +3,4 @@ Plattsburgh
 Potsdam
 Rochester
 Syracuse
-Syracuse
 Utica
