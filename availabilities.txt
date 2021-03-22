@@ -1,5 +1,7 @@
 Albany
 Bronx
+Buffalo
+Corning
 Henrietta
 Johnson City
 Middletown
