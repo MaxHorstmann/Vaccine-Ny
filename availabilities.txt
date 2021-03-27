@@ -1,6 +1,4 @@
 Albany
-Albany
-Buffalo
 Corning
 Henrietta
 Johnson City
@@ -9,6 +7,5 @@ Oneonta
 Plattsburgh
 Potsdam
 Queensbury
-Stony Brook
 Syracuse
 Utica
