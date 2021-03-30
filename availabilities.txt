@@ -1,3 +1,4 @@
+Albany
 Corning
 Henrietta
 Johnson City
@@ -5,7 +6,6 @@ New York
 Oneonta
 Plattsburgh
 Potsdam
-Stony Brook
 Syracuse
 Utica
-Wantagh
+White Plains
