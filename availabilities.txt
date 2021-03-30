@@ -1,4 +1,3 @@
-Albany
 Corning
 Henrietta
 Johnson City
@@ -8,4 +7,3 @@ Plattsburgh
 Potsdam
 Syracuse
 Utica
-White Plains
