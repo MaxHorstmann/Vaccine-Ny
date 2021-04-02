@@ -1,6 +1,6 @@
 Albany
-Brentwood
 Bronx
+Buffalo
 Corning
 Henrietta
 Johnson City
@@ -12,6 +12,8 @@ Oneonta
 Plattsburgh
 Potsdam
 Queensbury
+Queensbury
 Syracuse
 Syracuse
 Utica
+White Plains
