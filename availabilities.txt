@@ -2,7 +2,6 @@ Albany
 Brentwood
 Bronx
 Corning
-Glen Head
 Henrietta
 Johnson City
 Middletown
@@ -13,10 +12,6 @@ Oneonta
 Plattsburgh
 Potsdam
 Queensbury
-South Ozone Park
-Stony Brook
 Syracuse
 Syracuse
 Utica
-Wantagh
-White Plains
