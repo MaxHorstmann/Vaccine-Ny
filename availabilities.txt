@@ -5,9 +5,7 @@ Corning
 Henrietta
 Johnson City
 Middletown
-New Paltz
 New York
-Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
@@ -15,7 +13,6 @@ Queensbury
 Queensbury
 Rochester
 South Ozone Park
-Southampton
 Stony Brook
 Syracuse
 Syracuse
