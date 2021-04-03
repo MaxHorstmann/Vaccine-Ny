@@ -1,5 +1,4 @@
 Albany
-Albany
 Buffalo
 Corning
 Henrietta
@@ -10,9 +9,7 @@ Oneonta
 Plattsburgh
 Potsdam
 Queensbury
-Queensbury
 Rochester
-South Ozone Park
 Stony Brook
 Syracuse
 Syracuse
