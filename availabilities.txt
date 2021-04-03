@@ -1,5 +1,7 @@
 Albany
+Albany
 Bronx
+Buffalo
 Corning
 Henrietta
 Johnson City
@@ -9,8 +11,10 @@ New York
 Oneonta
 Plattsburgh
 Potsdam
+Queensbury
 Rochester
+Stony Brook
+Suffern
 Syracuse
 Syracuse
 Utica
-White Plains
