@@ -11,6 +11,7 @@ Henrietta
 Jamaica
 Johnson City
 Middletown
+New Paltz
 New York
 Niagara Falls
 Oneonta
@@ -19,6 +20,8 @@ Potsdam
 Queensbury
 Rochester
 South Ozone Park
+Southampton
+Stony Brook
 Suffern
 Syracuse
 Utica
