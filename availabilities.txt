@@ -1,8 +1,10 @@
 Albany
 Albany
+Buffalo
 Corning
 Henrietta
 Johnson City
+New York
 Oneonta
 Plattsburgh
 Potsdam
@@ -10,3 +12,4 @@ Rochester
 Suffern
 Syracuse
 Utica
+Yonkers
