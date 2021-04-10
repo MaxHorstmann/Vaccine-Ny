@@ -1,12 +1,10 @@
 Albany
 Albany
-Brentwood
 Bronx
 Brooklyn
 Buffalo
 Buffalo
 Corning
-Glen Head
 Henrietta
 Jamaica
 Johnson City
@@ -17,14 +15,11 @@ Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
-Queensbury
 Rochester
-South Ozone Park
 Southampton
 Stony Brook
 Suffern
 Syracuse
 Utica
-Wantagh
 White Plains
 Yonkers
