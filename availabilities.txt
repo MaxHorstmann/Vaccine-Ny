@@ -1,7 +1,5 @@
 Albany
 Albany
-Bronx
-Brooklyn
 Buffalo
 Buffalo
 Corning
@@ -16,10 +14,7 @@ Oneonta
 Plattsburgh
 Potsdam
 Rochester
-Southampton
-Stony Brook
 Suffern
 Syracuse
 Utica
-White Plains
 Yonkers
