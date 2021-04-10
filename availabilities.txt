@@ -1,5 +1,6 @@
 Albany
 Albany
+Brooklyn
 Buffalo
 Buffalo
 Corning
@@ -12,7 +13,6 @@ Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
-Queensbury
 Rochester
 Suffern
 Syracuse
