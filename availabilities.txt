@@ -2,14 +2,12 @@ Albany
 Albany
 Brooklyn
 Buffalo
-Buffalo
 Corning
 Henrietta
 Johnson City
 Middletown
 New Paltz
 New York
-Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
@@ -17,4 +15,5 @@ Rochester
 Suffern
 Syracuse
 Utica
+White Plains
 Yonkers
