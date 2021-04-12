@@ -2,7 +2,6 @@ Albany
 Albany
 Bronx
 Buffalo
-Buffalo
 Corning
 Henrietta
 Johnson City
