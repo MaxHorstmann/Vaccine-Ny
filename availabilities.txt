@@ -1,11 +1,11 @@
 Albany
 Albany
 Buffalo
-Buffalo
 Corning
 Henrietta
 Johnson City
 Middletown
+New Paltz
 New York
 Oneonta
 Plattsburgh
@@ -15,4 +15,3 @@ Suffern
 Syracuse
 Utica
 White Plains
-Yonkers
