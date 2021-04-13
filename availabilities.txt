@@ -1,6 +1,7 @@
 Albany
 Albany
 Buffalo
+Buffalo
 Corning
 Henrietta
 Johnson City
@@ -11,10 +12,11 @@ Oneonta
 Plattsburgh
 Potsdam
 Queensbury
+Queensbury
 Rochester
-South Ozone Park
 Stony Brook
 Suffern
+Syracuse
 Syracuse
 Utica
 White Plains
