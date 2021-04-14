@@ -3,6 +3,7 @@ Buffalo
 Corning
 Henrietta
 Johnson City
+Middletown
 New York
 Oneonta
 Plattsburgh
@@ -11,3 +12,4 @@ Rochester
 Suffern
 Syracuse
 Utica
+White Plains
