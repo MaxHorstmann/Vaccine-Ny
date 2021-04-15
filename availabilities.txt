@@ -1,6 +1,7 @@
 Albany
 Bronx
 Buffalo
+Buffalo
 Corning
 Henrietta
 Johnson City
@@ -10,7 +11,6 @@ Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
-Queensbury
 Queensbury
 Rochester
 Suffern
