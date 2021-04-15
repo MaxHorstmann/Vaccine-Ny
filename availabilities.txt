@@ -1,6 +1,7 @@
 Albany
 Brentwood
 Bronx
+Brooklyn
 Buffalo
 Buffalo
 Corning
@@ -14,9 +15,7 @@ Oneonta
 Plattsburgh
 Potsdam
 Queensbury
-Queensbury
 Rochester
-Stony Brook
 Suffern
 Syracuse
 Utica
