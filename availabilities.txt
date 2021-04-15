@@ -3,7 +3,6 @@ Bronx
 Buffalo
 Corning
 Henrietta
-Jamaica
 Johnson City
 Middletown
 New York
@@ -11,6 +10,7 @@ Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
+Queensbury
 Queensbury
 Rochester
 Suffern
