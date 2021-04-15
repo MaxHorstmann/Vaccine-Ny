@@ -1,14 +1,11 @@
 Albany
-Brentwood
 Bronx
-Brooklyn
-Buffalo
 Buffalo
 Corning
 Henrietta
+Jamaica
 Johnson City
 Middletown
-New Paltz
 New York
 Niagara Falls
 Oneonta
@@ -20,3 +17,4 @@ Suffern
 Syracuse
 Utica
 White Plains
+Yonkers
