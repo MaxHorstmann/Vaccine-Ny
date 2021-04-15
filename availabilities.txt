@@ -1,9 +1,14 @@
 Albany
-Albany
+Brentwood
+Bronx
+Buffalo
 Buffalo
 Corning
 Henrietta
 Johnson City
+Middletown
+New York
+Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
@@ -11,3 +16,5 @@ Rochester
 Suffern
 Syracuse
 Utica
+Wantagh
+White Plains
