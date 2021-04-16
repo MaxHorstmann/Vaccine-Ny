@@ -1,4 +1,5 @@
 Albany
+Albany
 Bronx
 Brooklyn
 Buffalo
@@ -6,15 +7,15 @@ Buffalo
 Corning
 Henrietta
 Jamaica
+Johnson City
 Middletown
 New York
 Niagara Falls
+Oneonta
+Plattsburgh
 Potsdam
 Queensbury
 Rochester
-South Ozone Park
-Stony Brook
 Suffern
 Syracuse
 Utica
-Yonkers
