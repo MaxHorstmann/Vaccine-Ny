@@ -1,5 +1,6 @@
 Albany
 Albany
+Brentwood
 Bronx
 Brooklyn
 Buffalo
@@ -15,8 +16,10 @@ Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
+Queensbury
 Rochester
 South Ozone Park
+Stony Brook
 Suffern
 Syracuse
 Utica
