@@ -5,11 +5,11 @@ Brooklyn
 Buffalo
 Buffalo
 Corning
+Glen Head
 Henrietta
 Jamaica
 Johnson City
 Middletown
-New Paltz
 New York
 Niagara Falls
 Oneonta
@@ -20,3 +20,5 @@ South Ozone Park
 Suffern
 Syracuse
 Utica
+Wantagh
+White Plains
