@@ -9,6 +9,7 @@ Henrietta
 Jamaica
 Johnson City
 Middletown
+New Paltz
 New York
 Niagara Falls
 Oneonta
@@ -18,3 +19,4 @@ Rochester
 Suffern
 Syracuse
 Utica
+White Plains
