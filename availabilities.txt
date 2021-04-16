@@ -1,11 +1,11 @@
 Albany
 Bronx
 Buffalo
+Buffalo
 Corning
 Henrietta
 Jamaica
 Middletown
-New Paltz
 New York
 Niagara Falls
 Potsdam
@@ -15,5 +15,4 @@ Stony Brook
 Suffern
 Syracuse
 Utica
-White Plains
 Yonkers
