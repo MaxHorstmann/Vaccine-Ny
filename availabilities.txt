@@ -15,6 +15,7 @@ Niagara Falls
 Oneonta
 Plattsburgh
 Potsdam
+Queensbury
 Rochester
 South Ozone Park
 Southampton
@@ -23,4 +24,3 @@ Suffern
 Syracuse
 Utica
 White Plains
-Yonkers
