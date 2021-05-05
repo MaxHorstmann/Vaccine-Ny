@@ -1,9 +1,7 @@
 Albany
 Albany
-Albany
 Brentwood
 Bronx
-Buffalo
 Buffalo
 Corning
 Glen Head
@@ -19,7 +17,6 @@ Plattsburgh
 Potsdam
 Queensbury
 Queensbury
-Rochester
 South Ozone Park
 Southampton
 Stony Brook
@@ -29,4 +26,3 @@ Syracuse
 Utica
 Wantagh
 White Plains
-Yonkers
