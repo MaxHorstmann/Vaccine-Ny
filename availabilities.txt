@@ -3,7 +3,6 @@ Albany
 Brentwood
 Bronx
 Buffalo
-Corning
 Glen Head
 Henrietta
 Johnson City
@@ -12,7 +11,6 @@ New Paltz
 New York
 New York
 Niagara Falls
-Oneonta
 Plattsburgh
 Queensbury
 Queensbury
